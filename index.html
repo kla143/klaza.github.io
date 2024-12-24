@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ประวัติวันคริสต์มาส</title>
+    <style>
+        /* การตั้งค่าพื้นฐาน */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-image: url('https://www.transparenttextures.com/patterns/circle.png');
+            background-size: 100px 100px;
+            /* ลบการตั้งค่า overflow: hidden; เพื่อให้สามารถเลื่อนหน้าเว็บได้ */
+        }
+
+        header {
+            background-color: #1e025e;
+            color: white;
+            text-align: center;
+            padding: 40px;
+            font-size: 36px;
+            font-weight: bold;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        section {
+            background-color: #ffffff;
+            border-radius: 8px;
+            margin: 20px;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #080808;
+            font-size: 28px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.8;
+            color: #444;
+            text-align: justify;
+        }
+
+        /* การตั้งค่าสำหรับรูปภาพ */
+        .christmas-image {
+            width: 100%; /* ทำให้รูปภาพขยายตามขนาดของ container */
+            height: auto; /* ปรับอัตราส่วนของรูปภาพ */
+            max-height: 500px; /* ขนาดสูงสุดของรูปภาพ */
+            object-fit: cover; /* ทำให้รูปภาพพอดีกับกรอบ */
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        footer {
+            background-color: #1e025e;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 16px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .btn {
+            background-color: #388e3c;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+            display: inline-block;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #2c6e28;
+        }
+
+        /* สไตล์สำหรับเกร็ดน้ำแข็ง */
+        .snowflake {
+            position: fixed;
+            top: -50px;
+            color: white;
+            font-size: 24px;
+            user-select: none;
+            z-index: 9999;
+            pointer-events: none;
+            animation: snow 10s linear infinite;
+        }
+
+        /* การสร้างการเคลื่อนไหวของหิมะตก */
+        @keyframes snow {
+            0% {
+                transform: translateY(-100px) rotate(0deg);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(100vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        /* การควบคุมความเร็วและขนาดของเกร็ดน้ำแข็ง */
+        .snowflake:nth-child(odd) {
+            font-size: 20px;
+            animation-duration: 12s;
+        }
+
+        .snowflake:nth-child(even) {
+            font-size: 30px;
+            animation-duration: 8s;
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        ประวัติวันคริสต์มาส/History of Christmas
+    </header>
+
+    <section>
+        <h2>วันคริสต์มาสคืออะไร?/What is Christmas?</h2>
+        <p>วันคริสต์มาส (Christmas) คือ วันสำคัญของชาวคริสต์เพื่อเฉลิมฉลองวันประสูติของพระเยซู ผู้เป็นศาสดาของศาสนา ตรงกับวันที่ 25 ธันวาคม.</p>
+
+        <p>Christmas Day is an important day for Christians to celebrate the birth of Jesus, the prophet of the religion, on December 25.</p>
+        <img class="christmas-image" src="000.jpg" alt="Christmas Tree">
+    </section>
+
+    <section>
+        <h2>ต้นกำเนิดของวันคริสต์มาส/The origins of Christmas</h2>
+        <p>วันคริสต์มาสถูกจัดขึ้นในวันที่ 25 ธันวาคมของทุกปี แม้ว่าความจริงแล้วไม่สามารถระบุได้อย่างแน่ชัดว่าพระเยซูประสูติในวันใด แต่วันที่ 25 ธันวาคมถูกเลือกให้เป็นวันคริสต์มาสโดยพระสันตะปาปาจูเลียสที่ 1 ในศตวรรษที่ 4 เพื่อแทนที่วันเทศกาลที่เป็นของเทพเจ้าผู้คุ้มครองความอุดมสมบูรณ์ของชาวโรมัน.</p>
+
+        <p>Christmas Day is celebrated on December 25th of every year. Although it is not possible to say for sure when Jesus was born, December 25th was chosen as Christmas Day by Pope Julius I in the 4th century to replace the day of the festival of the Roman fertility god.</p>
+        <img class="christmas-image" src="111.webp" alt="Santa Claus">
+    </section>
+
+    <section>
+        <h2>ประเพณีและกิจกรรมในวันคริสต์มาส/Christmas traditions and activities</h2>
+        <p>ในวันคริสต์มาส ผู้คนมักจะเฉลิมฉลองด้วยการมอบของขวัญ การตกแต่งต้นคริสต์มาส การร้องเพลงคริสต์มาส และการร่วมรับประทานอาหารคริสต์มาสกับครอบครัวและเพื่อนฝูง บางประเทศยังมีกิจกรรมอย่างการจัดงานตลาดคริสต์มาสที่มีสินค้าและอาหารพิเศษ.</p>
+
+        <p>On Christmas Day, people often celebrate by giving gifts, decorating Christmas trees, singing carols, and sharing Christmas food with family and friends. Some countries also hold events such as Christmas markets with special products and foods.</p>
+        <a href="#" class="btn">เรียนรู้เพิ่มเติม</a>
+    </section>
+
+    <footer>
+        <p>© 2024 ประวัติวันคริสต์มาส</p>
+    </footer>
+
+    <!-- โค้ดสำหรับสร้างเกร็ดน้ำแข็ง -->
+    <script>
+        // ฟังก์ชันสร้างเกร็ดน้ำแข็ง
+        function createSnowflakes() {
+            const snowflakeCount = 50; // จำนวนเกร็ดน้ำแข็ง
+            const body = document.body;
+
+            for (let i = 0; i < snowflakeCount; i++) {
+                let snowflake = document.createElement("div");
+                snowflake.classList.add("snowflake");
+                snowflake.textContent = "❄"; // ตัวอักษรเกร็ดหิมะ
+                snowflake.style.left = `${Math.random() * 100}vw`; // ตั้งตำแหน่งเริ่มต้นแนวนอน
+                snowflake.style.animationDuration = `${Math.random() * 5 + 5}s`; // กำหนดความเร็วในการตก
+                snowflake.style.animationDelay = `${Math.random() * 5}s`; // กำหนดเวลาเริ่มการตก
+                body.appendChild(snowflake);
+            }
+        }
+
+        // เรียกใช้งานฟังก์ชันเมื่อหน้าเว็บโหลดเสร็จ
+        window.onload = createSnowflakes;
+    </script>
+
+</body>
+</html>
